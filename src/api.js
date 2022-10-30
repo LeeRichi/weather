@@ -9,7 +9,7 @@ export const options = {
 export const GEO_API_URL = 'https://wft-geo-db.p.rapidapi.com/v1/geo/adminDivisions'
 
 
-fetch(GEO_API_URL, options)
-	.then(response => response.json())
-	.then(response => console.log(response))
-	.catch(err => console.error(err));
+// fetch(GEO_API_URL, options)
+// 	.then(response => response.json())
+// 	.then(response => console.log(response))
+// 	.catch(err => console.error(err));
